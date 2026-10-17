@@ -171,6 +171,7 @@
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="yaap" />
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="cuayo" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="yaap" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
