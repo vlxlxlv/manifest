@@ -1,4 +1,4 @@
-YAAP
+YAAP Extended
 ==============
 
 Getting Started
