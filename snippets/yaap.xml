@@ -11,6 +11,10 @@
            fetch="https://github.com/yaap"
            revision="refs/heads/seventeen" />
 
+  <remote  name="cuayo"
+           fetch="https://github.com/vlxlxlv"
+           revision="refs/heads/seventeen" />
+
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
@@ -29,7 +33,7 @@
    <linkfile src="target" dest="build/target" />
    <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="yaap" >
+  <project path="build/soong" name="build_soong" remote="cuayo" >
    <linkfile src="root.bp" dest="Android.bp" />
    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -75,12 +79,12 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/vim" name="external_vim" remote="yaap" />
   <project path="external/vixl" name="external_vixl" remote="yaap" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="yaap" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cuayo" />
   <project path="external/zstd" name="external_zstd" remote="yaap" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
+  <project path="frameworks/base" name="frameworks_base" remote="cuayo" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
@@ -179,7 +183,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android15-qpr2" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cuayo" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
@@ -250,7 +254,7 @@
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="seventeen" clone-depth="1" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="cuayo" />
   <project path="vendor/yaap/apps" name="vendor_yaap_apps" remote="yaap" clone-depth="1" />
 
 </manifest>
