@@ -192,6 +192,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
   <project path="packages/apps/TV" name="packages_apps_TV" remote="yaap" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="yaap" />
+  <project path="packages/apps/YAAPWalls" name="packages_apps_DerpWalls" remote="cuayo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="yaap" />
   <project path="packages/modules/AdServices" name="packages_modules_AdServices" remote="yaap" />
